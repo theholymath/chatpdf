@@ -38,9 +38,6 @@ output_dir = "."
 # Streamlit app
 st.title("Talk with your favorite pdf!")
 
-# get gender from user
-#gender = st.selectbox("Choose an option:", ['male','female'])
-
 
 pdf_url = st.text_input("Enter the URL for a pdf (e.g. https://arxiv.org/pdf/2303.17564.pdf):")
 if len(pdf_url) != 0:
