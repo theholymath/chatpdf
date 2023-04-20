@@ -4,3 +4,4 @@ PyPDF2
 faiss-cpu
 tiktoken
 sentence_transformers
+protobuf<4,>=3.12
