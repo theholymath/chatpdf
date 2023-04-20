@@ -42,10 +42,10 @@ st.title("Talk with your favorite pdf!")
 #gender = st.selectbox("Choose an option:", ['male','female'])
 
 
-ArXiv_url = st.text_input("Enter the URL for a pdf (e.g. https://arxiv.org/pdf/2303.17564.pdf):")
-if len(ArXiv_url) != 0:
+pdf_url = st.text_input("Enter the URL for a pdf (e.g. https://arxiv.org/pdf/2303.17564.pdf):")
+if len(pdf_url) != 0:
     st.write("## The first time this runs for a new pdf it may take up to a minute to load the model")
-    raw_text = pdf_to_raw_text(ArXiv_url)
+    raw_text = pdf_to_raw_text(pdf_url)
 
     # We need to split the text that we read into smaller chunks so that during information retreival we don't hit the token size limits. 
 
