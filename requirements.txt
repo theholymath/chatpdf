@@ -5,4 +5,4 @@ faiss-cpu
 tiktoken
 sentence_transformers
 protobuf<4,>=3.12
-streamlt
+streamlit
