@@ -10,6 +10,8 @@ A langchain, vectordatabase approach to talking with pdf on the internet
 
 Create `secrets.toml` with `echo 'password = "password"' > secrets.toml`
 
-`docker run --rm -e OPENAI_API_KEY=<key> -v `pwd`/secrets.toml:/app/.streamlit/secrets.toml -p 8501:8501 chatpdf`
+```
+docker run --rm -e OPENAI_API_KEY=<key> -v `pwd`/secrets.toml:/app/.streamlit/secrets.toml -p 8501:8501 chatpdf
+```
 
 Add `--gpus all` to enable the nvidia-runtime (leverage your GPU).
