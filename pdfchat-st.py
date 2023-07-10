@@ -21,8 +21,8 @@ import io, requests
 import re
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-user_api_key = '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'
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
+user_api_key = ''
 
 template = """ You are going to be my assistant.
 Use the context below please try to give me the most correct answers to my
